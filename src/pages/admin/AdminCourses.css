@@ -1,0 +1,153 @@
+/* .admin-page {
+    padding: 2rem 0;
+}
+
+.admin-header {
+    margin-bottom: 2rem;
+}
+
+.admin-header h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+} */
+
+/* Admin footer inside CourseCard */
+/* .admin-course-footer {
+    margin-top: 1rem;
+}
+
+.admin-course-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.btn-outline {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border-light);
+    background: transparent;
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+}
+
+.btn-danger {
+    flex: 1;
+    padding: 0.5rem;
+    background: #ef4444;
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+} */
+
+
+/* ===== Admin Page Layout ===== */
+
+.admin-page {
+    min-height: 100vh;
+    background-color: #f9fafc;
+    padding: 40px 0;
+}
+
+.admin-page .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===== Header ===== */
+
+.admin-header {
+    margin-bottom: 30px;
+}
+
+.admin-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* ===== Grid Layout ===== */
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* ===== Course Card ===== */
+
+.admin-course-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin-course-card:hover {
+    transform: translateY(-4px);
+}
+
+/* ===== Course Text ===== */
+
+.admin-course-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.admin-course-card p {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 4px 0;
+}
+
+/* ===== Action Buttons ===== */
+
+.admin-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.admin-actions button {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+/* Edit Button */
+.admin-actions button:first-child {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.admin-actions button:first-child:hover {
+    background-color: #2563eb;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #ef4444;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #dc2626;
+}
